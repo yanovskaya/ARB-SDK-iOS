@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C4494E16221326A500813494 /* ARB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4494E142213261E00813494 /* ARB.framework */; };
-		C4494E17221326A500813494 /* ARB.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C4494E142213261E00813494 /* ARB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C4494E4922133AE800813494 /* ARB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4494E4822133AE800813494 /* ARB.framework */; };
+		C4494E4A22133AE800813494 /* ARB.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C4494E4822133AE800813494 /* ARB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C4F86F4A220F8DF10000E16A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F86F49220F8DF10000E16A /* AppDelegate.swift */; };
 		C4F86F51220F8DF10000E16A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4F86F4F220F8DF10000E16A /* Main.storyboard */; };
 		C4F86F53220F8DF70000E16A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4F86F52220F8DF70000E16A /* Assets.xcassets */; };
@@ -18,13 +18,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		C401A5B2221256A600AB6981 /* Embed Frameworks */ = {
+		C4494E472213398300813494 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				C4494E17221326A500813494 /* ARB.framework in Embed Frameworks */,
+				C4494E4A22133AE800813494 /* ARB.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -32,7 +32,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C4494E142213261E00813494 /* ARB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARB.framework; path = "../../../Library/Developer/Xcode/DerivedData/ARB-flsjqmvqennmsxazervaitlbswcj/Build/Products/Debug-universal/ARB.framework"; sourceTree = "<group>"; };
+		C4494E4822133AE800813494 /* ARB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ARB.framework; sourceTree = "<group>"; };
 		C4F86F46220F8DF10000E16A /* ARB_SDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARB_SDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4F86F49220F8DF10000E16A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4F86F50220F8DF10000E16A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4494E16221326A500813494 /* ARB.framework in Frameworks */,
+				C4494E4922133AE800813494 /* ARB.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,7 +58,7 @@
 		C4F86F3D220F8DF00000E16A = {
 			isa = PBXGroup;
 			children = (
-				C4494E142213261E00813494 /* ARB.framework */,
+				C4494E4822133AE800813494 /* ARB.framework */,
 				C4F86F48220F8DF10000E16A /* ARB_SDK */,
 				C4F86F47220F8DF10000E16A /* Products */,
 			);
@@ -104,7 +104,7 @@
 				C4F86F42220F8DF10000E16A /* Sources */,
 				C4F86F43220F8DF10000E16A /* Frameworks */,
 				C4F86F44220F8DF10000E16A /* Resources */,
-				C401A5B2221256A600AB6981 /* Embed Frameworks */,
+				C4494E472213398300813494 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

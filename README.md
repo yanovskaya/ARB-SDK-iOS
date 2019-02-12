@@ -1,5 +1,5 @@
 # ARB SDK
-ARB SDK - библиотека для открытия 3D-моделей в AR и VR(для устройств, не поддерживающих AR).
+ARB SDK - библиотека для открытия 3D-моделей в AR и VR.
 
 ## Быстрая интеграция:
 1. Скачать `ARB.framework` по [ссылке](https://drive.google.com/file/d/1jW9ATlEhttmueL4suWjYxcllH-JUawch/view?usp=sharing).
