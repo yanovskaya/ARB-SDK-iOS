@@ -62,18 +62,18 @@ class StartViewController: UIViewController {
             guard let model = self?.model else { return }
             self?.fetchImage(urlString: model.diffuse) { [weak self] diffuseImage in
                 
+                guard let strongSelf = self else { return }
                 guard let modelURL = URL(string: model.model) else { return }
                 guard let modelScene = try? SCNScene(url: modelURL) else { return }
                 
-                guard let strongSelf = self else { return }
                 DispatchQueue.main.async {
                 self?.activityIndicator.isHidden = true
                 }
+                // MARK: Переход на AR
                 let modelObjects = ModelObjects(model: modelScene, diffuse: diffuseImage)
                 let router = ARBRouter(sender: strongSelf, modelObjects: modelObjects)
                 router.showAR()
             }
         }
     }
-    
 }
