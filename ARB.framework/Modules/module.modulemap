@@ -1,0 +1,11 @@
+framework module ARB {
+  umbrella header "ARB.h"
+
+  export *
+  module * { export * }
+}
+
+module ARB.Swift {
+    header "ARB-Swift.h"
+    requires objc
+}
